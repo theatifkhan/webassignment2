@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign-Up</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body style="background-color: #efefef">
+	<center><h1>Thanks for signing up!<br>
+<a href="index.html"> Go to home page</a>
+	</h1></center>
+
+	<div class="popup" id="popup">
+		<h2>Task 6</h2>
+		<img style="width: 250px;" src="congrats.jpg">
+		<h2>Thanks for signing up!</h2>
+		<button id="okbtn" onclick="closepopup()" style="width: 100%; background-color: black; color: white; padding: 5px; border-radius: 12px; font-size:17px; margin:10px;" class="btn btn-primary" type="submit">OK </button>
+	</div>
+<script type="text/javascript">
+	let popup = document.getElementById('popup')
+	popup.classList.add("open-popup");
+
+	function closepopup() {
+		popup.classList.remove("open-popup");
+	}
+</script>
+</body>
+</html>
