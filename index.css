@@ -3,12 +3,12 @@ body{
 	font-family: sans-serif;
 }
 #task2{
-	margin-top: 20px;
+	
 	padding:20px;
 	width: 100%;
 	height: max-content;
 	padding-bottom: 30px;
-	background-color: #efefef;
+	background-color: white;
 	}
 	
 #task1{
@@ -20,8 +20,8 @@ body{
 #task3459{
 	background-color: #efefef;
 	width: 100%;
-	padding: 30px;
-	margin-top: 20px;
+	padding: 20px;
+	
 
 }
 #login{
@@ -50,13 +50,12 @@ body{
 	width: 100%;
 	height: 350px;
 	padding: 30px;
-	margin-top: 20px;
 	background-color: #efefef;
 }
 
 #task8{
 	background-color: #efefef;
-    margin-top: 20px;
+        margin-top: 20px;
 	width: 100%;
 	padding: 30px;
 	height:max-content;
